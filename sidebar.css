@@ -3,9 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-image: linear-gradient(to right, grey,lightgrey);
-}
+/* body{
+    background-image: linear-gradient(to right, grey,white);
+} */
 nav{
     width: 100%;
     height: 710px;
@@ -114,23 +114,19 @@ header{
 }
 header .banner{
     width: 90%;
-    height: 80%;
-    display: flex;
+    height: 100%;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     color: #333;
     position: relative;
+    text-align: center;
 }
-header>p{
+/* header>p{
     text-align: center;
 
-}
-header.banner div,
-header.banner img{
-    width: 50%;
-
-}
+} */
 header.banner div h1{
     font-size: 100px;
     text-align: center;
