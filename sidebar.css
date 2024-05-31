@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, grey,lightgrey);
+}
+nav{
+    width: 100%;
+    height: 710px;
+    margin: 25px auto;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+aside{
+    width: 20%;
+    height: 100%;
+    background: lightgray;
+    float: left;
+}
+aside h1 img{
+    width: 70%;
+    float: left;
+}
+aside h1 span{
+    font-size: 30px;
+    line-height: 50px;
+    margin-left: 6px;
+    color: white;
+}
+aside ul{
+    padding: 5px 0 5px 30px;
+
+}
+aside ul li{
+    list-style: none;
+    font-weight: bold;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    max-height: 35px;
+    line-height: 35px;
+    transition: 1s;
+    text-transform: capitalize;
+}
+aside ul:first-child{
+    max-height: 50px;
+}
+aside ul:first-child li:hover{
+    background: none;
+
+}
+aside ul li:hover{
+    background: #d1d1d173;
+}
+aside ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+aside ul li a i{
+    width: 30px;
+    padding: 5px;
+    margin-right: 10px;
+}
+aside ul li a i.fa-angle-right{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    transition: 0.5s;
+}
+aside ul li>ul{
+    padding: 1px;
+    margin: 0 0 0 20px;
+}
+aside ul li>ul li{
+    height: 25px;
+    line-height: 20px;
+    font-size: 15px;
+    padding: 1px 1px 1px 20px;
+    font-weight: normal;
+    border-left: 1px solid #fff0f0;
+    margin:5px;
+    color: #fff0f0;
+    cursor: pointer;
+}
+aside ul li>ul li a,
+aside ul li:target>ul li a{
+    background: transparent;
+}
+aside ul li:target{
+    max-height: 300px;
+    border-radius: 5px 0 0 5px;
+
+}
+aside ul li:target a{
+    color: #444;
+    display: inherit;
+    background: white;
+}
+aside ul li:target a i.fa-angle-right{
+    transform: rotate(90deg);
+    top: 10px;
+}
+aside ul li:target:hover{
+    background: initial;
+}
+header{
+    width: 80%;
+    height: 100%;
+    float: left;
+    font-family: sans-serif;
+}
+header .banner{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #333;
+    position: relative;
+}
+header>p{
+    text-align: center;
+
+}
+header.banner div,
+header.banner img{
+    width: 50%;
+
+}
+header.banner div h1{
+    font-size: 100px;
+    text-align: center;
+    color: #333;
+    font-weight: normal;
+
+}
