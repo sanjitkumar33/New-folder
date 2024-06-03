@@ -4,114 +4,48 @@
         <link href="newsidebar.css" rel="stylesheet">
     </head>
     <body>
-        <div>
+        
+        <div id="HyptoHeader"></div>
+        <redoc id="redoc">
+        
             <div class="sc-hZSUBg bxcHYI redoc-wrap">
+                <!-- vertical sidebar part start -->
                 <div class="sc-iQNlJl jzMYjV menu-content" style="top: 60px; height: calc(-60px + 100vh);">
+                    <!-- sidebar image part -->
                     <div class="sc-feJyhm YzuTm">
-                        <a href="/" class="sc-iELTvK cCiYxb">
-                            <img src="https://i.ibb.co/GTr3w2M/logo.webp" alt="logo" class="sc-kafWEX hZCbNs">
-                        </a>
+                        <a href="/" class="sc-iELTvK cCiYxb"><img src="./asset/logo.png" alt="logo" class="sc-kafWEX hZCbNs"></a>
                     </div>
+                    <!-- search bar section start -->
                     <div role="search" class="sc-esOvli kKQhLA">
+                        <svg class="sc-hMFtBS ibpoCO search-icon" version="1.1" viewBox="0 0 1000 1000" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px"></svg>
                         <input placeholder="Search..." type="text" class="sc-cmthru kzNiFq search-input" value="">
-
                     </div>
-
-                    <div class="sc-gPEVay hclups scrollbar-container undefined ps">
+                    <div class="sc-gPEVay hclups scrollbar-container undefined ps ps--active-y">
+                        <!-- unorder list item -->
                         <ul class="sc-bwCtUz ghctpd" role="navigation">
-                            <li data-item-id="group/" class="sc-hrWEMg bSiQzA">
-                                <label type="group" role="menuitem" class="sc-eTuwsz lgiBxe -depth0">
-                                    <span title="" class="sc-gwVKww fyUykq"></span>
-                                </label>
-                                <ul class="sc-bwCtUz ghctpd">
-                                    <li data-item-id="tag/api_url" class="sc-hrWEMg bbViyS">
-                                        <label type="tag" role="menuitem" class="sc-eTuwsz iNzLCk -depth1">
-                                            <span title="API URL" class="sc-gwVKww fyUykq">API URL</span>
-                                        </label>
-                                    </li>
-                                    <li data-item-id="tag/Payments" class="sc-hrWEMg bbViyS">
-                                        <label type="tag" role="menuitem" class="sc-eTuwsz iNzLCk -depth1">
-                                            <span title="Payments" class="sc-gwVKww fyUykq">Payments</span>
-                                            <svg class="sc-jTzLTM hjRNaf" version="1.1" viewBox="0 0 24 24" x="0" xmlns="http://www.w3.org/2000/svg" y="0">
-                                                <polygon points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "></polygon>
-                                            </svg>
-                                        </label>
-                                        <ul class="sc-bwCtUz cLEtWf">
-                                            <li data-item-id="operation/fund_transfer" class="sc-hrWEMg bbViyS">
-                                                <label role="menuitem" class="sc-eTuwsz gpbcFk -depth2">
-                                                    <span type="post" class="sc-iQKALj cFwMcp operation-type post">post</span>
-                                                    <span width="calc(100% - 38px)" class="sc-gwVKww SmuWE">Initiate Fund Transfers</span>
-                                                </label>
-                                            </li>
-                                            <li data-item-id="operation/fetch_status" class="sc-hrWEMg bbViyS">
-                                                <label role="menuitem" class="sc-eTuwsz gpbcFk -depth2">
-                                                    <span type="get" class="sc-iQKALj cFwMcp operation-type get">get</span>
-                                                    <span width="calc(100% - 38px)" class="sc-gwVKww SmuWE">Fetch Status</span>
-                                                </label>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li data-item-id="tag/Banking" class="sc-hrWEMg bbViyS">
-                                        <label type="tag" role="menuitem" class="sc-eTuwsz iNzLCk -depth1">
-                                            <span title="Banking" class="sc-gwVKww fyUykq">Banking</span>
-                                            <svg class="sc-jTzLTM hjRNaf" version="1.1" viewBox="0 0 24 24" x="0" xmlns="http://www.w3.org/2000/svg" y="0">
-                                                <polygon points="17.3 8.3 12 13.6 6.7 8.3 5.3 9.7 12 16.4 18.7 9.7 "></polygon>
-                                            </svg>
-                                        </label>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li data-item-id="group/UPI" class="sc-hrWEMg bSiQzA"></li>
-                            <li data-item-id="group/" class="sc-hrWEMg bSiQzA"></li>
+                            <!-- list item -->
+                            
+                            
                         </ul>
-                        <div class="sc-hXRMBi nGwee"></div>
-                        <div class="ps__rail-x" style="left: 0px; bottom: 0px;"></div>
-                        <div class="ps__rail-y" style="top: 0px; right: 0px;"></div>
-
+                        <div class="sc-hXRMBi nGwee"><a target="_blank" href="https://github.com/Redocly/redoc">Documentation Powered by ReDoc</a></div>
+                        <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div>
+                        <div class="ps__rail-y" style="top: 0px; height: 218px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 111px;"></div></div>
                     </div>
+                    <!-- postman side content -->
                     <a class="postman" onclick="showPopup(`Postman_Collection`)">Run in Postman
-                        <img src="/docs/assets/images/postman-logo.svg">
+                        <img src="https://www.hypto.in/docs/assets/images/postman-logo.svg">
                     </a>
-                </div>
-
-                <div></div>
-                
-
-                <div class="sc-cMhqgX iniCdN api-content">
-                    <div class="sc-gzVnrw eesUPo">
-                        <div class="sc-bxivhb cjtbAK api-info">
-                            <h1 class="sc-htoDjs sc-fYxtnH dTJWQH">PayuGuru <span>(1.0.0)</span></h1>
-                            <div class="sc-jWBwVP sc-iRbamj flfxUM"></div>
-                            <div class="sc-jWBwVP sc-iRbamj flfxUM">
-                                <p>PayuGuru Partner APIs are completely RESTful and all our responses are returned in JSON.</p>
-                    </div></div></div>
-                    <div id="tag/api_url" data-section-id="tag/api_url" class="sc-ifAKCX dluJDj">
-                        <div class="sc-gzVnrw eesUPo">
-                            <div class="sc-bxivhb cjtbAK">
-                                <h1 class="sc-htoDjs WxWXp">
-                                    <a class="sc-VigVT kGvRyb" href="#tag/api_url"></a>API URL
-                                </h1>
-                            </div>
-                        </div>
-                        <div class="sc-bxivhb kFNigF">
-                            <div class="sc-jWBwVP sc-iRbamj flfxUM redoc-markdown ">
-                                <p>The PayuGuru Partner API URL is 
-                                    <a href="https://partners.hypto.in">https://partners.PayuGuru.in</a>.
-                                     You need to include this before each API endpoint to make API calls.
-                                    </p>
-                    </div></div></div>
-                    <div id="tag/Payments" data-section-id="tag/Payments" class="sc-ifAKCX dluJDj">
-                        <div class="sc-gzVnrw eesUPo">
-                            <div class="sc-bxivhb cjtbAK">
-                                <h1 class="sc-htoDjs WxWXp">
-                                    <a class="sc-VigVT kGvRyb" href="#tag/Payments"></a>Payments
-                                </h1></div></div><div class="sc-bxivhb kFNigF">
-                                    <div class="sc-jWBwVP sc-iRbamj flfxUM redoc-markdown ">
-                                        <p>This section explains how to initiate a fund transfer to any bank account and check the status of the transaction.</p>
-                    </div></div></div>
                     
                 </div>
+                <!-- main content side  -->
+                <div class="sc-bsbRJL fXybtJ"></div>
+                <!-- main content part start text-->
+                <div class="sc-cMhqgX iniCdN api-content"></div>
+                <!-- right side part start -->
+                <div class="sc-iuJeZd fLUKgj"></div>
+
             </div>
-        </div>
+        </redoc>
+        <div id="Postman_Collection" class="blur-screen"></div>
     </body>
 </html>
