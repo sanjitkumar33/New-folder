@@ -206,6 +206,63 @@ label[type=tag] {
     /* right: 0px; */
     position: absolute;
 }
+.ghctpd {
+    margin: 0px;
+    padding: 0px;
+}
+.bSiQzA {
+    margin-top: 0 !important;
+}
+.bSiQzA {
+    list-style: inside none none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px;
+
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+label[type=group] {
+    font-size: 12px;
+    color: #818182;
+}
+.ghctpd .sc-bwCtUz {
+    font-size: 0.929em;
+}
+.ghctpd {
+    margin: 0px;
+    padding: 0px;
+}
+.bbViyS {
+    list-style: inside none none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px;
+}
+label[type=tag] {
+    padding-left: 25px;
+}
+.fyUykq {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.iNzLCk .sc-jTzLTM {
+    height: 1.5em;
+    width: 1.5em;
+}
+.hjRNaf {
+    
+    vertical-align: middle;
+    float: right;
+    transition: transform 0.2s ease-out 0s;
+    transform: rotateZ(-90deg);
+}
 /* postman content part start */
 .postman {
     cursor: pointer;
